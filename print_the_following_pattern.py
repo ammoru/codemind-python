@@ -1,6 +1,5 @@
-n= int(input())
-st="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+n=int(input())
 for i in range(n):
-    for v in range(n):
-        print(st[i],end=" ")
-    print(  )    
+    for k in range(1,n+1-i):
+        print(k,end="")
+    print()    
