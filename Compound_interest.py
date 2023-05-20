@@ -1,4 +1,4 @@
+import math
 p,r,t=map(int,input().split())
-
-a=(p*(1+(r/100))**t)
-print('%.2f'%a)
+l=p*((1+(r/100))**t)
+print("%.2f"%l)
