@@ -8,4 +8,4 @@ while(n > 0 or sum > 9):
      
     sum += n % 10
     n //= 10
-print(sum)    
+print(sum)
