@@ -1,16 +1,15 @@
 n=int(input())
-x,y=0,1
-c=0
-for i in range(n+1):
-    if x*y==n:
-        c+=1
+a=0
+b=1
+l=0
+for i in range(n):
+    if a*b==n:
+        l+=1
         break
-    else:  
-        x+=1
-        y+=1
-if c==1:
+    else:
+        b+=1
+        a+=1
+if l!=0:
     print("YES")
 else:
     print("NO")
-        
-    
